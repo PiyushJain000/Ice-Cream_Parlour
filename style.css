@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.white{
+    background-color: #FFFFFF;
+    height: 70px;
+    display: flex;
+    
+}
+.logo{
+    font-size: 30px;
+    margin-top: 21px;
+}
+.name{
+    color: black;
+    font-size: 35px;
+    font-family:'Dancing Script', Helvetica, sans-serif;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-left: 30px;
+
+}
+.searchbar{
+    display: flex;
+    height: 30px;   
+    width: 100px;
+    margin-top: 23px;
+    margin-left: 70px;
+}
+.searchicon{
+    border: #242323 solid 2px;
+    border-radius: 2px;
+    font-size: 25px;
+
+}
+.quote{
+    margin-top: 28px;
+    margin-left: 200px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+#logo1{
+    font-size: 30px;
+    margin-top: 21px;
+    margin-left: 200px;
+    color: blue;
+}
+#logo2{
+    font-size: 30px;
+    margin-top: 21px;
+    margin-left: 50px;
+}
+#i1{
+    font-size: 20px;
+    margin-top: 28px;
+    margin-left: 20px;
+}
+.user{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 35px;
+}
+
+.black{
+    background-color: #242323;
+    height: 61px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    
+}
+.time{
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.smlogo{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.smlogo:hover{
+    color: blue;
+}
+
+.about{
+    height: 140px;
+    background-color: #f9Db79;
+    display: flex;
+}
+.more{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #2f2e2e;
+}
+.text1{
+    margin-left: 20px;
+    
+}
+.text1:hover{
+    text-decoration:underline;
+
+}
+.special{
+    font-size: 50px;
+    font-family:serif;
+    margin-left: 150px;
+    margin-top: 15px;
+    
+}
+.special:hover{
+    text-decoration: underline;
+}
+.user{
+    margin-left: 500px;
+}
+.user:hover{
+    color: blue;
+}
+.container{
+    height: 750px;
+    background-color: #f9Db79;
+    display:flex;
+}
+.icecream{
+    margin-left: 600px;
+
+}
+#text2{
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 250px;
+    position: absolute;
+    margin-left: 590px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+#text3{
+    font-size: 200px;
+    position: absolute;
+    color: #FFFFFF;
+    margin-top: 350px;
+    margin-left: 170px;
+    font-weight: 600;
+}
+.flavour{
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #242323 3px solid;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 675px;
+}
+.text{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+.flavour:hover{
+    background-color: #242323;
+    color: #FFFFFF;
+} 
+.container2{
+    display: flex;
+}
+.info1{
+    margin-top: 100px;
+    margin-left: 260px;
+    font-size: 30px;
+    font-family: 'Protest Revolution', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.info2{
+    margin-left: 280px;
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 20px;
+}
+.info3{
+    height: 230px;
+    width: 520px;
+    border: #242323 solid 2px;
+    margin-left:100px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 10px;
+}
+.info4{
+    font-size: 23px;
+    text-align: center;
+    margin-top: 15px;
+}
+.info3:hover{
+    background-color: #242323;
+    color: #FFFFFF;
+}
+.container3{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    padding-left: 150px;
+}
+.box1{
+    font-family:'Protest Revolution', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 70px; 
+    margin-left: 300px;
+}
+.box2{
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 20px;
+    margin-left: 170px;
+}
+.box3{
+    height: 210px;
+    width: 530px;
+    border: #242323 solid 2px;
+    border-top-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+    margin-top: 10px;
+    margin-left: 75px;
+
+}
+.box3:hover{
+    background-color: #242323;
+    color: #FFFFFF;
+}
+.box4{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+}
+.f_part{
+    background-color: #242323;
+    height:340px;
+}
+.address{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.f_part{
+    display: flex;
+}
+.information{
+    margin-left: 80px;
+    color: #FFFFFF;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    font-weight: 700;
+}
+#t1{
+    font-size: 16px;
+}
+.sub{
+    height: 40px;
+    width:360px;
+    border:white 2px solid;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+.sub1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.sub:hover{
+    background-color:grey;
+}
+.thank{
+    display: flex;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 80px;
+    color:#FFFFFF;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.smlogo1{
+    margin-left: 20px;
+    font-size: 25px ;
+
+}
+.smlogo1:hover{
+    color: blue;
+}
+.m1{
+    display: flex;
+    margin-left: 400px;
+    
+}
+.m2{
+    height: 40px;
+    width:360px;
+    border: #FFFFFF 2px solid;
+    margin-top: 40px;
+    margin-left: 100px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.m2:hover{
+    border:5px red solid
+}
+.page{
+    background-color: #b5e8d5;
+    height: 250px;
+}
+.p1{
+    color:#2f2e2e;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+.p2{
+    color:#2f2e2e;
+    font-family: cursive;
+    /* margin-left: 35%; */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 80px;
+}
+.a1{
+    background-color: white;
+    height: 100px;
+}
+.a2{
+    text-align: center;
+    margin-top: 70px;
+    font-size: xx-large;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.f_page{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    
+}
+.f_page2{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    
+}
+.card{
+    height: 500px;
+   
+}
